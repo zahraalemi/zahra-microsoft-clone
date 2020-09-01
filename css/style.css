@@ -1,0 +1,322 @@
+
+/*Main Header */
+
+
+.main-container{
+    margin: 0 50px;
+}
+
+.main-header{
+    width: 100%;
+    height: 100%;
+}
+
+/* Header Top */
+.header-top{
+    display: flex;
+    align-items: center;
+ 
+    height: 54px;
+}
+
+.header-logo{
+   flex: 1;
+
+}
+
+.main-nav{
+    flex: 3;
+   
+}
+
+.accessibility{
+  flex: 1;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.access-menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.access-menu a{
+    color: var(--primary-color);
+}
+
+.logo{
+    width: 120px;
+}
+
+.menu-item a{
+    padding: 10px;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+
+/* Header Bottom */
+.header-bottom{
+    background: chartreuse;
+    height: 450px;
+}
+
+.header-showcase{
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/banner.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.showcase-content{
+    height: 100%;
+    width: 100%;
+    padding: 30px 0 0 50px;
+}
+
+.showcase-heading, .showcase-text{
+    margin-bottom: 20px;
+}
+
+/* Utilities */
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);;
+    text-decoration: none;
+}
+/* 
+.py{
+    padding: 30px 0;
+}
+
+.px{
+    padding: 0 30px;
+}
+ */
+
+.btn-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.btn-icon{
+   margin-left: 5px;
+ }
+
+
+
+ /* Section: Product */
+
+ .product{
+     display: flex;
+     list-style: none;
+     justify-content: space-around;
+     padding: 70px;
+ }
+
+ .item-box{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .product-item a{
+    color: var(--primary-color);
+}
+
+ .product-icon{
+     font-size: 3rem;
+     margin-bottom: 10px;
+ }
+
+ .product-title{
+    font-weight: bold;
+}
+
+
+/* Section: Sub Products */
+
+.sub-products-container{
+    display: flex;
+}
+
+.sub-products-container img{
+    width: 280px;
+}
+
+.sub-products-container h2{
+    font-size: 1.1rem;
+}
+.sub-product-link{
+    color: var(--primary-color);
+}
+
+.sub-box{
+    flex: 1;
+}
+
+.sub-product-box{
+    padding: 20px;
+}
+
+.sub-products-container h2,
+.sub-products-container p {
+    margin: 10px 0;
+}
+
+.sub-box-link{
+    color: rgb(11, 105, 182);
+}
+
+.sub-box-link a:hover{
+    text-decoration: underline;
+}
+
+.btn-double{
+    display: block;
+}
+
+
+.banner-showcase{
+    position: relative;
+    height: 450px;
+    background: url(/img/back2.jpeg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.banner-showcase-content{
+    position: absolute;
+    vertical-align: middle;
+    width: 600px;
+    top: 30%;
+    left: 60px;
+    align-items: center;
+}
+
+.banner-heading, .banner-text{
+    margin-bottom: 20px;
+}
+
+.banner-text{
+    font-size: 15px;
+}
+
+.banner-heading{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.joobet-container{
+    padding-top: 50px;
+}
+
+.joobet-content{
+    display: flex;
+    padding-top: 15px;
+    left: -20px;
+}
+
+.box-info{
+    padding: 0 12px;
+}
+.box-info img{
+    width: 309px;
+}
+.box-info-text{
+    width: 300px;
+    padding-top: 36px;
+}
+.first-box{
+    padding-left: 0px;
+}
+
+.heading-joobet h2{
+    font-weight: bold;
+}
+.socialmedia{
+    display: flex;
+    padding-top: 50px;
+}
+
+.socialmedia-box{
+    display: flex;
+}
+
+.socialmedia-box li,p{
+    padding-right: 10px;
+    
+}
+.footermenu a {color: #969696;}
+
+.menu-footer-top{
+    padding: 50px 50px 0;
+}
+.menu-footer-container{
+    background: #f2f2f2;
+    margin-top: 50px;
+
+}
+.menu-footer-box{
+    padding: 0 12px;
+}
+.menu-footer-item li{
+    padding: 8px 0;
+}
+
+.menu-footer-item h4{
+    font-size: 15px;
+    color: #616161;
+}
+
+.footermenu {
+    display: flex;
+    
+  }
+  .footermenu > div {
+    flex: 1; 
+  }
+
+  .footermenu a {
+      color: #616161;
+      font-size: 11px;
+    }
+.menu-footer-bottom{
+    padding: 30px 5% 16px;
+    color: #616161;
+}
+.menu-footer-bottom a{
+    color: #616161;
+  }
+.menu-footer-bottom a:hover{
+    text-decoration: underline;
+}
+.footercopy{
+    display: flex; 
+    font-size: 11px;
+}
+  .footer-copy-item{
+    display: flex;
+    right: 0;
+  }
+
+  .footer-copy-item li{
+      padding-right: 15px;
+     
+
+  }
+  .change-language{
+      flex: 1;
+  }
+  
